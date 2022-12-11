@@ -12,7 +12,7 @@ for i in range(4):
 
 ans = 0
 for i in range(10):
-    if dictionary[i] < k * 2 and dictionary[i] != 0:
+    if dictionary[i] <= k * 2 and dictionary[i] != 0:
         ans += 1
 
 print(ans)
